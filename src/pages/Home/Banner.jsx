@@ -1,17 +1,18 @@
-
-import image from "../../assets/hifzur-image.png"
+import { FaDownload, FaEnvelope } from "react-icons/fa6";
+import image from "../../assets/hifzur.png"
 
 const Banner = () => {
     return (
         <section className="bg-[#1A1429] text-white">
-            <div className="mx-auto max-w-6xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
-                <div className=" text-left w-2/3">
+            <div className="mx-auto max-w-6xl px-4 py-32 lg:flex lg:h-[550px] lg:items-center">
+                <div className=" text-left md:w-2/3 space-y-8">
                     <h1
                         className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
-                       
+
                     >
-                        Hello! I‘m
-                        <span className="sm:block text-8xl">
+                        Hello! I‘m 
+                        <span className="sm:block text-5xl md:text-8xl">
+                            <br className="md:hidden" />
                             Hifzur Rahman
                         </span>
                     </h1>
@@ -19,26 +20,31 @@ const Banner = () => {
 
 
                     <p className="mt-4 max-w-xl text-2xl/relaxed">
-                        A Front End Developer | with <span className="text-white border rounded-full bg-gradient-to-bl from-[#DC293A] to-[#6d1910] pb-1 px-2">1.5+ Years</span> Experience
+                        A Front End Developer | with <span className="text-white text-base border rounded-full bg-[#DC293A] py-1 px-2">0.5+ Years</span> Experience
+                    </p>
+                    <p className="mt-4 max-w-xl text-base/relaxed">
+                        Hi, I‘m a junior web developer specializing in the MERN stack. 💻 Passionate about crafting seamless user experiences with React
                     </p>
 
                     <div className="mt-8 flex flex-wrap gap-4">
                         <a
-                            className="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+                            className="flex w-full items-center rounded border border-blue-600 bg-blue-600 px-12 py-3 text-md font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
                             href="/"
                         >
-                            Get Started
+                            <FaDownload className="text-md mr-2" />
+                            Resume
                         </a>
 
                         <a
-                            className="block w-full rounded border border-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
+                            className="flex items-center w-full rounded border border-blue-600 px-12 py-3 text-md font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
                             href="/"
                         >
-                            Learn More
+                            <FaEnvelope className="text-md mr-2" />
+                            Contact Me
                         </a>
                     </div>
                 </div>
-                <div className="w-1/3">
+                <div className="w-1/3 bottom-[-29px] hidden md:block relative">
                     <img src={image} alt="" />
                 </div>
             </div>
