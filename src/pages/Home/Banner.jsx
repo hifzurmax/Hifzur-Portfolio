@@ -11,7 +11,7 @@ const Banner = () => {
                        
                     >
                         Hello! I‘m
-                        <span className="sm:block text-8xl" style={{ WebkitTextStroke: "2px lightgray" }}>
+                        <span className="sm:block text-8xl">
                             Hifzur Rahman
                         </span>
                     </h1>
