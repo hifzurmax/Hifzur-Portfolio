@@ -19,9 +19,10 @@ const Skills = () => {
             <div className="mx-auto max-w-screen-6xl px-4 lg:flex lg:items-center">
                 <div className="mx-auto max-w-6xl text-center">
                     <h1
-                        className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl pb-4"
+                        className="bg-gradient-to-r from-green-300 max-w-md mx-auto via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl pb-4"
                     >
                         Technologies I Use
+                        <div className="divider divider-accent"></div>
                     </h1>
 
                     <div className="max-w-4xl mt-10 flex items-center justify-center gap-4 sm:gap-2 md:gap-4 flex-wrap">
@@ -36,7 +37,7 @@ const Skills = () => {
                         <Technologies icon={hook} name={"React Hook Form"}></Technologies>
                     </div>
                     <h1
-                        className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl pb-4 pt-10"
+                        className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent pt-10"
                     >
                         Development & Productivity Tools I Use
                     </h1>

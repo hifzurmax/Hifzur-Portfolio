@@ -1,17 +1,17 @@
 import { FaDownload, FaEnvelope } from "react-icons/fa6";
 import image from "../../assets/hifzur.png"
-
+import resume from "../../assets/resume.txt"
 const Banner = () => {
     return (
         <section className="bg-[#1A1429] text-white">
             <div className="mx-auto max-w-6xl px-4 py-32 lg:flex lg:h-[550px] lg:items-center">
-                <div className=" text-left md:w-2/3 space-y-8">
+                <div className=" text-left md:w-3/5 space-y-8">
                     <h1
                         className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
 
                     >
                         Hello! I‘m 
-                        <span className="sm:block text-5xl md:text-8xl">
+                        <span className="sm:block text-5xl md:text-7xl">
                             <br className="md:hidden" />
                             Hifzur Rahman
                         </span>
@@ -29,7 +29,7 @@ const Banner = () => {
                     <div className="mt-8 flex flex-wrap gap-4">
                         <a
                             className="flex w-full items-center rounded border border-blue-600 bg-blue-600 px-12 py-3 text-md font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-                            href="/"
+                            href={resume}
                         >
                             <FaDownload className="text-md mr-2" />
                             Resume
@@ -44,8 +44,8 @@ const Banner = () => {
                         </a>
                     </div>
                 </div>
-                <div className="w-1/3 bottom-[-29px] hidden md:block relative">
-                    <img src={image} alt="" />
+                <div className="w-2/5 hidden md:block relative">
+                    <img className="h-[550px]" src={image} alt="" />
                 </div>
             </div>
         </section>
