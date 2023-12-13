@@ -1,11 +1,11 @@
 
 const About = () => {
     return (
-        <section className="text-[#1A1429] my-16">
+        <section className="text-[#1A1429] my-20">
             <div className="mx-auto max-w-screen-6xl px-4 lg:flex lg:items-center">
                 <div className="mx-auto max-w-6xl text-center">
                     <h1
-                        className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
+                        className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold pb-4 text-transparent sm:text-5xl"
                     >
                         About Me
                     </h1>

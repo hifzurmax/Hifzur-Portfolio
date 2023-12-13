@@ -20,7 +20,7 @@ const Banner = () => {
 
 
                     <p className="mt-4 max-w-xl text-2xl/relaxed">
-                        A Front End Developer | with <span className="text-white text-base border rounded-full bg-[#DC293A] py-1 px-2">0.5+ Years</span> Experience
+                        A Front End Developer | with <span className="text-white text-lg font-bold rounded-full bg-[#DC293A] py-1 px-2">0.5+ Years</span> Experience
                     </p>
                     <p className="mt-4 max-w-xl text-base/relaxed">
                         Hi, I‘m a junior web developer specializing in the MERN stack. 💻 Passionate about crafting seamless user experiences with React
